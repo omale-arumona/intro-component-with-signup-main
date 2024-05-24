@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <h1 class="github">My GitHub Repo: <a
+      href="https://github.com/omale-arumona/intro-component-with-signup-main">https://github.com/omale-arumona/intro-component-with-signup-main</a>
+  </h1>
+  <main class="container">
+    <div class="container-text">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+    </div>
+    <div class="container-form">
+      <h4>Try it free 7 days<span> then $20/mo. thereafter</span></h4>
+      <form action="" id="form">
+        <label for="firstName" class="label">
+          <div class="con">
+            <div class="firstName-errImage-box input-img-container">
+              <input type="text" class="firstName" placeholder="First Name" /><img src="./images/icon-error.svg"
+                alt="error image" class="errorImg err-image1">
+            </div>
+            <div class="firstName-span span-box"></div>
+          </div>
+        </label>
+        <label for="lastName">
+          <div class="con">
+            <div class="lastName-errImage-box input-img-container">
+              <input type="text" class="lastName" placeholder="Last Name" /><img src="./images/icon-error.svg"
+                alt="error image" class="errorImg err-image2">
+            </div>
+            <div class="lastName-span span-box"></div>
+          </div>
+        </label>
+        <label for="email">
+          <div class="con">
+            <div class="email-errImage-box input-img-container">
+              <input type="email" class="email" placeholder="Email" /><img src="./images/icon-error.svg"
+                alt="error image" class="errorImg err-image3">
+            </div>
+            <div class="email-span span-box"></div>
+          </div>
+        </label>
+        <label for="password">
+          <div class="con">
+            <div class="password-errImage-box input-img-container">
+              <input type="password" class="password" placeholder="Password" /><img src="./images/eye-open.svg" alt=""
+                class="eyeOpen"><img src="./images/eye-closed.svg" alt="" class="eyeClose"><img
+                src="./images/icon-error.svg" alt="error image" class="errorImg err-image4">
+            </div>
+            <div class="password-span span-box"></div>
+          </div>
+        </label>
+        <button id="button">Claim your free trial</button>
+        <small>By clicking the button, you are agreeing to our
+          <span> Terms and Services</span></small>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
